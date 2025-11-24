@@ -3,7 +3,7 @@ import { MongoClient, GridFSBucket, ObjectId } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config();
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000 ;
 
 // MongoDB connection
 const client = new MongoClient(process.env.ConnectionURI);
@@ -37,6 +37,11 @@ app.get("/video", (req, res) => {
     console.error(err);
     res.status(500).send("Server error");
   }
+});
+
+app.get("/", (req, res) => {
+  console.log("here i have received request in /hellfire");
+  res.send("Received your request in /hellfire"); // ✅ Must respond
 });
 
 app.listen(PORT, () => {
