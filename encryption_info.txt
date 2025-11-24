@@ -1,0 +1,5 @@
+AES-256 Encryption Key (Base64):
+WhIIiqqsDgksbqazyKaeprJ7Wj4XGkIP7ERDi902kMU=
+
+Initialization Vector (IV) (Base64):
+eaZUePeqB0vZM4DdzwrFWA==

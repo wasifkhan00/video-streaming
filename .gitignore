@@ -1,0 +1,18 @@
+
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+.pnp.js
+dist/
+build/
+.cache/
+.lock-wscript
+.env
+.env.local
+.env.*.local
+*.tgz
+
