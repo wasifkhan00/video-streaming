@@ -2,6 +2,7 @@
   "name": "sajid's-project",
   "version": "1.0.0",
   "main": "ServeVideo.js",
+    "type": "module",
   "scripts": {
     "start": "node ServeVideo.js",
     "dev": "nodemon ServeVideo.js",
@@ -13,7 +14,6 @@
   "description": "",
   "dependencies": {
     "@bundlr-network/client": "^0.11.17",
-    "crypto": "^1.0.1",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "fs": "^0.0.1-security",
